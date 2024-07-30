@@ -68,7 +68,7 @@ const images = [
 //створюємо картку за шаблонним рядком
 const createGalleryCard = (image) => {
   return `
-    <li class="gallery-item" data-id: ${image.id}>
+    <li class="gallery-item" >
   <a class="gallery-link" href="${image.original}">
     <img
       class="gallery-image"
